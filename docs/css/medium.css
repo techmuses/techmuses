@@ -233,8 +233,8 @@ span.post-name a,span.post-read-more a:hover {
     padding-bottom:12px;
     font-size:0.8rem;
     color:rgba(0,0,0,.44);
-    margin-top:50px;
-    margin-bottom:62px;
+    margin-top:8px;
+    /* margin-bottom:25px; */
     position: relative;
     background: #fff;
 }
@@ -643,4 +643,10 @@ iframe {
 }
 .card .img-fluid {
    width:100%;
+}
+
+.madewithlove {
+    color: #ec1625;
+    font-size: 1.3em;
+    line-height: 0;
 }
