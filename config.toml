@@ -11,7 +11,7 @@ publishDir = "docs"
 
 [params]
   logo = "/images/logo.png"
-  description ="the clean blog!"
+  description ="things we learn"
   #mailchimp = "you can provide a mailchimp-link here"
 
 [params.author]
@@ -20,20 +20,18 @@ publishDir = "docs"
   description = "Creator of this blog."
 
 [params.index]
-  picture = "/images/author.png"
+  picture = "/images/author.jpg"
   title = "techmuses"
-  subtitle = "I'm a unique placeholder. Working here and there!"
+  subtitle = "A resource place to definitely keep an eye on"
   mdtext = '''
-Currently trying to get this blog running, still don't know what the blog will be about!\
-**This textblock is a demonstration of the mdtext-param.**\
-### This is a markdown heading
+tehmuses is a smart,intelligent,quirky,witty content portal that targets people interested in technologies and computer and lets you grow with the knowledge of ours.
 '''
   alertbar = false
 
 [params.social]
   github = "< techmuses>"
   linkedin = "<username>"
-  xing = "<username>"
+  
 
 ## Main Menu
 [[menu.main]]

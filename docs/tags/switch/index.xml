@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Switch on techmuses</title>
+    <link>https://techmuses.github.io/tags/switch/</link>
+    <description>Recent content in Switch on techmuses</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>techmuses - All rights reserved</copyright>
+    <lastBuildDate>Wed, 07 Nov 2018 11:40:11 +0200</lastBuildDate>
+    
+	<atom:link href="https://techmuses.github.io/tags/switch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Taking Control with Switch Statement</title>
+      <link>https://techmuses.github.io/blog/switch/</link>
+      <pubDate>Wed, 07 Nov 2018 11:40:11 +0200</pubDate>
+      
+      <guid>https://techmuses.github.io/blog/switch/</guid>
+      <description>This is gonna be a good read if you have just started coding recently or are not much familiar with switch Statement.
+If you are a pro or you think you are familiar with switch statement then scroll down to the link at the bottom, you may find something new.</description>
+    </item>
+    
+  </channel>
+</rss>

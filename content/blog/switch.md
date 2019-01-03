@@ -7,7 +7,7 @@ tags: ["coding", "switch"]
 comments: false
 ReadingTime: "7"
 AuthorName: "Akshay"
-Description: "The Blog Creator"
+Description: "The Tech Lead"
 Thumbnail: "/images/akshay.jpeg"
 Summary: "This is gonna be a good read if you have just started coding recently or are not much familiar with switch Statement.This would be concept booster for your switch statement knowledge."
 ---

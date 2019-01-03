@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="generator" content="Hugo 0.50" />
+	
+	<link rel="icon" href="/images/logo.png">
+	
+	<title>Taking Control with Switch Statement | techmuses</title>
+	
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="/css/medium.css" rel="stylesheet">
+	<link href="/css/additional.css" rel="stylesheet">
+
+	<meta name="google-site-verification" content="TirPh4CzG5ksxNyY5oJ6WBynwZErBxNhzJAWI4P81Us" />
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+    <div class="container pr-0">
+        
+        <a class="navbar-brand" href="https://techmuses.github.io/">
+
+            
+            <img src="/images/logo.png" alt="logo">
+            
+        </a>
+        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+            
+            <ul class="navbar-nav ml-auto">
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+                 
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+
+
+        <div class="site-content">   
+            <div class="container">
+<div class="mainheading">
+    <h1 class="sitetitle">techmuses</h1>
+    <p class="lead">
+         things we learn
+    </p>
+</div><div class="main-content">
+        
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2 pl-0"><div class="share">
+    <p>Share</p>
+    <ul>
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Taking%20Control%20with%20Switch%20Statement&url=https%3a%2f%2ftechmuses.github.io%2fblog%2fswitch%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=435');return false;">
+        <i class="fab fa-twitter"></i>
+        </a>
+        </li>
+        
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=https%3a%2f%2ftechmuses.github.io%2fblog%2fswitch%2f" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <i class="fab fa-facebook-f"></i>
+        </a>
+        </li>
+        
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://plus.google.com/share?url=https%3a%2f%2ftechmuses.github.io%2fblog%2fswitch%2f" onclick="window.open(this.href, 'google-share', 'width=550,height=435');return false;">
+        <i class="fab fa-google"></i>
+        </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+        <a target="_blank" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2ftechmuses.github.io%2fblog%2fswitch%2f" onclick="window.open(this.href, 'xing-share', 'width=550,height=435');return false;">
+        <i class="fab fa-xing"></i>
+        </a>
+        </li>        
+    </ul>
+
+    
+</div></div>
+                                
+                <div class="col-md-9 flex-first flex-md-unordered">
+                    <div class="mainheading">
+                        	
+                         <div class="post-top-meta">
+                            <div>
+                                <img class="author-thumb" src="/images/akshay.jpeg" alt="Akshay">
+                            </div>
+                            <div >
+                                <a target="_blank" class="link-dark">Akshay</a><br>
+                                <span class="author-description">
+                                    The Tech Lead<br>
+                                    <i class="far fa-star"></i>
+                                    Nov 11, 2018
+                                    <i class="far fa-clock clock"></i>
+                                    7 min read
+                                </span>					
+                            </div>
+                        </div>			
+                                              
+                        
+                        <h1 class="posttitle">Taking Control with Switch Statement</h1> 
+                    </div>
+
+                    
+                    
+                        <img class="featured-image img-fluid" src="/images/blog/switch.svg" alt="thumbnail for this post">
+                    
+                    
+                    
+                    
+                    <div class="article-post">
+                        
+
+<!-- # Taking Control with Switch Statement -->
+
+<p>This is gonna be a good read if you have just started coding recently or are not much familiar with <code>switch Statement</code>.</p>
+
+<p>If you are a pro or you think you are familiar with <code>switch statement</code> then scroll down to the link at the bottom, you may find something new.</p>
+
+<p>So let us begin, when we begin to learn coding we come across topics like variable assignment, declaration, and control structures, loops and all.</p>
+
+<p>I believe switch statement would be really confusing topic in control structures, so let’s simplify it</p>
+
+<p>Switch statements are an other way to write if-else  code (but it&rsquo;s limited, you can only switch on integral values, or char value as it works for a single variable)</p>
+
+<p>A thing to note is that C doesn&rsquo;t support switches on strings ,while other languages like Java support it.</p>
+
+<p>The above explanation would become clear with this example</p>
+
+<p>Example:</p>
+
+<pre><code>if (a == 0) {  
+// First case  
+} else if (a == 1) {  
+// Second case  
+} else if (a == 2) {  
+// Third case  
+} else {  
+// Default case  
+}
+</code></pre>
+
+<p>With switches:</p>
+
+<pre><code>switch (a) {  
+case 0:  
+// First case  
+break;  
+case 1:  
+// Second case  
+break;  
+case 2:  
+// Third case  
+break;  
+default:  
+// Default case  
+break;  
+}
+</code></pre>
+
+<p>Note an important thing:</p>
+
+<p><code>default</code> is essentially the same as else in an <code>if - else if - else</code> chain.</p>
+
+<p>the <code>break;</code> statements at the end of every case. This means that after the code in that block is done we break out of the switch statement, and resume execution at the next statement after the switch.</p>
+
+<p>If there&rsquo;s no <code>break</code>, it will continue running code line by line. The case statements are simply labels. For instance, in the example below, if a was 2, and as we removed all break statements, the code for statement 1,2, 3,4, and the default case would all run.</p>
+
+<p>If you want to have the same code to execute for multiple cases you can leave the break off, like so:</p>
+
+<pre><code>switch (a) {  
+case 1:  
+case 2:  
+// Code for first and second case  
+break;  
+case 3:  
+case 4:  
+// Code for third and fourth case  
+break;  
+default:  
+// Default case  
+break;  
+}
+</code></pre>
+
+<p>All the above points are summarised below, take note of this important points while dealing with switch statement.</p>
+
+<ul>
+<li><p>The expression in the switch should be a constant value otherwise it
+would not be valid.</p></li>
+
+<li><p>The Switch statement can work without default statement</p></li>
+
+<li><p>The break statement is used inside the switch to terminate the
+sequence of code execution, the switch terminates, and the flow of
+control jumps to the next line following the switch statement</p></li>
+
+<li><p>If there&rsquo;s no break, it will continue running code line by line</p></li>
+
+<li><p>The default block can be placed anywhere.</p></li>
+
+<li><p>You can write a switch statement inside another switch statement, but
+its not advisable as it can get real messy.</p></li>
+</ul>
+
+<h4 id="whew-that-was-too-much-of-a-switching-for-a-day-i-hope-you-understood-the-topic">Whew that was too much of a switching for a day. I hope you understood  the topic..</h4>
+
+<p><strong>As I said above, the Pro folks have a look at <a href="https://embeddedgurus.com/stack-overflow/2010/04/efficient-c-tip-12-be-wary-of-switch-statements/">this article</a> you may find something new. If you are beginner then don&rsquo;t read it, you may get confused</strong></p>
+
+                    </div>
+                    
+                    
+                    <div class="after-post-tags">
+                        <ul class="tags">
+                        
+                        <li>
+                        <a href="/tags/coding">coding</a>
+                        </li>
+                        
+                        <li>
+                        <a href="/tags/switch">switch</a>
+                        </li>
+                        
+                        </ul>
+                    </div>
+                    
+                    
+                    
+                    <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+                    
+                        <a class="prev d-block col-md-6" href="/blog/goto/"> &laquo; Lets Take Jump With Goto Statement</a>
+                    
+                    
+                        <a class="next d-block col-md-6 text-lg-right" href="/blog/function-or-cpp/">What is Function Overiding Problem in C&#43;&#43; and how to Solve? &raquo;</a>
+                    
+                    <div class="clearfix"></div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+    
+
+            </div>
+    
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                &copy; Copyright techmuses - All rights reserved
+            </div>
+            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
+              Made with <span class="madewithlove">♥</span> by team techmuses
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+
+    
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+    
+<script src="/js/mediumish.js"></script>
+
+    </body>
+</html>
